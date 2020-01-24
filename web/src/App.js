@@ -3,6 +3,7 @@ import React from 'react';
 import './global.css';
 import './App.css';
 import './Sidebar.css';
+import './Main.css';
 
 // Componente: Bloco isolado de HTML, CSS e JS, o qual não interfere no restante da aplicação
 // Propriedade: Informações que um componente PAI passa para um componente FILHO
@@ -47,7 +48,52 @@ function App() {
     </aside>
     
     <main>
-
+      <ul>
+        <li className="dev-item">
+          <header>
+            <img src="https://avatars0.githubusercontent.com/u/54965836?s=460&v=4" alt="FotoPerfil"/>
+            <div className="user-info">
+              <strong>Carlos Oliveira</strong>
+              <span>ReactJS, React Native, Node.JS</span>
+            </div>
+          </header>
+          <p>Aqui tem uma historia muito linda, pode ter certeza! Combinado?</p>
+          <a href="https://github.com/burn-c">Acessar perfil no Github</a>
+        </li>
+        <li className="dev-item">
+          <header>
+            <img src="https://avatars0.githubusercontent.com/u/54965836?s=460&v=4" alt="FotoPerfil"/>
+            <div className="user-info">
+              <strong>Carlos Oliveira</strong>
+              <span>ReactJS, React Native, Node.JS</span>
+            </div>
+          </header>
+          <p>Aqui tem uma historia muito linda, pode ter certeza! Combinado?</p>
+          <a href="https://github.com/burn-c">Acessar perfil no Github</a>
+        </li>
+        <li className="dev-item">
+          <header>
+            <img src="https://avatars0.githubusercontent.com/u/54965836?s=460&v=4" alt="FotoPerfil"/>
+            <div className="user-info">
+              <strong>Carlos Oliveira</strong>
+              <span>ReactJS, React Native, Node.JS</span>
+            </div>
+          </header>
+          <p>Aqui tem uma historia muito linda, pode ter certeza! Combinado?</p>
+          <a href="https://github.com/burn-c">Acessar perfil no Github</a>
+        </li>
+        <li className="dev-item">
+          <header>
+            <img src="https://avatars0.githubusercontent.com/u/54965836?s=460&v=4" alt="FotoPerfil"/>
+            <div className="user-info">
+              <strong>Carlos Oliveira</strong>
+              <span>ReactJS, React Native, Node.JS</span>
+            </div>
+          </header>
+          <p>Aqui tem uma historia muito linda, pode ter certeza! Combinado?</p>
+          <a href="https://github.com/burn-c">Acessar perfil no Github</a>
+        </li>
+      </ul>
     </main>
   </div>
   );
